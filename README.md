@@ -15,7 +15,7 @@ You can browse to https://albacore.io/faketoshi for an generator in js that uses
 
 ### How to use
 ```
-git clone ""
+git clone git@github.com:albacorelabs/Libra.git
 stack build  
 stack exec Faketoshi-exe
 
