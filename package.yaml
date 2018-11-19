@@ -1,0 +1,33 @@
+name:                Faketoshi
+version:             0.1.0.0
+github:              "albacorelabs/Faketoshi"
+license:             MIT
+author:              "Albacore"
+maintainer:          "albacore.io"
+copyright:           "2018 Albacore"
+
+extra-source-files:
+- README.md
+
+description:         Please see the README on GitHub at <https://github.com/albacorelabs/Faketoshi#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- cryptonite
+
+library:
+  source-dirs: src
+
+executables:
+  Faketoshi-exe:
+    main:                Main.hs
+    source-dirs:         app
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    - -dynamic
+    - -Wall
+    - -Werror
+    dependencies:
+    - Faketoshi
