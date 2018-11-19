@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 6437b0823ecdf974708ee2294b3d0814f0b5040fb233ce5448ad5cce8159e211
+-- hash: 87763b2d0a1912e38b1c2c2fe373d729591ac21ffbc602c80769b6fc36d96f4c
 
 name:           Faketoshi
 version:        0.1.0.0
@@ -13,6 +13,7 @@ author:         Albacore
 maintainer:     albacore.io
 copyright:      2018 Albacore
 license:        MIT
+license-file:   LICENSE
 build-type:     Simple
 cabal-version:  >= 1.10
 extra-source-files:
